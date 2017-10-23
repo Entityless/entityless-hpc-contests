@@ -1,0 +1,45 @@
+load norm file ......
+norm file load
+parameters input:
+fea_file:             ../dataset/fea_tr.pfile
+norm_file:            ../dataset/train.norm
+targ_file:            ../dataset/lab_tr.pfile
+outwts_file:          ./mlp.0.wts
+log_file:             ./mlp.0.log
+initwts_file:         ../dataset/mlp.0.wts
+train_sent_range:     0-50000
+cv_sent_range:        0-0
+fea_dim:	      39
+fea_context:          11
+bunchsize:	      1024
+gpu_used:             0
+train_cache:          102400
+init_randem_seed:     27863875
+targ_offset:          5
+init_randem_weight_max:		  0.100000
+init_randem_weight_min:		  -0.100000
+init_randem_bias_max:		  0.100000
+init_randem_bias_min:		  -0.100000
+learnrate:		          2.048000
+layersizes:		          429,2048,2048,2048,2048,2048,2048,8991,
+nmod:		                  1
+remainder:		          0
+discard_prob:		          0.000000
+discardLabs:		          
+Please check...
+Get pfile info over: Training data has 19490087 frames, 50001 sentences.
+Get chunk info over: Training sentences have 186 chunks, 18988276 samples.
+Get cv chunk info over: CV sentences have 1 chunks, 73 samples.
+start training:
+--chunk(0) : containing samples 102400
+--chunk(1) : containing samples 102400
+--chunk(2) : containing samples 102400
+--chunk(3) : containing samples 102400
+--chunk(4) : containing samples 102400
+--chunk(5) : containing samples 102400
+--chunk(6) : containing samples 102400
+--chunk(7) : containing samples 102400
+--chunk(8) : containing samples 102400
+--chunk(9) : containing samples 102400
+--chunk(10) : containing samples 102400
+--chunk(11) : containing samples 102400

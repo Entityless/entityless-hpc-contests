@@ -1,0 +1,2 @@
+mpiicpc -Werror -mkl -fPIC -xHost -openmp -O3 -offload-attribute-target=mic  -o dnntk dnn_helper.o dnn_kernel.o dnn_utility.o main.o my_dnn_util.o kernel_util.o mic_kernel_util.o 
+mv -f dnntk ../exp/       
